@@ -1,0 +1,44 @@
+html {
+  background-color: #FEFFF1;
+  font-family: serif;
+  color: #050505;
+}
+nav li a{
+  background-color: inherit;
+  color: #A57548;
+}
+h1{
+  background-color: inherit;
+  border: 15px double #A57548;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  font-size: 400%;
+  color: inherit;
+}
+h3{
+  background-color: inherit;
+  border: 5px double #A57548;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  font-size: 150%;
+  color: inherit;
+}
+h2{
+  font-size: 200%;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  line-height: 1.5em;
+  text-align: center;
+}
+p a{
+  background-color: inherit;
+  color: #A57548;
+}
+cite a{
+  background-color: inherit;
+  color:#A57548;
+}

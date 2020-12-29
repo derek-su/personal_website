@@ -1,0 +1,262 @@
+html {
+  font-family: sans-serif;
+  background-color: #2E4AA4;
+  color: #F7F7F2;
+}
+
+nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+nav ul li {
+  display: inline-block;
+  margin: 5%;
+  border-style: solid;
+  border-color: #F7F7F2;
+  align-items: center;
+  padding: 2%;
+}
+
+nav ul li:hover {
+  background-color: #59A5D8;
+  color: inherit;
+}
+
+nav li a{
+  background-color: inherit;
+  color: #f5d6ba;
+
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  margin-left: 10%;
+}
+
+.right {
+  margin-right: 10%;
+}
+
+.heading .left {
+  margin-left: 10%;
+  margin-right: 2%;
+  flex: 1;
+  text-align: center;
+}
+
+div.heading .right {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+div.heading .right img {
+  width: 90%;
+  height: auto;
+}
+.welcome .left {
+  margin-left: 10%;
+  margin-right: 2%;
+  flex: 1;
+  margin-bottom: 5%;
+}
+
+div.welcome div.right {
+  flex-shrink: 0;
+  flex: 1;
+}
+
+
+h1.name{
+  background-color: #59A5D8 ;
+  padding: 15%;
+  margin-bottom: 0px;
+  font-size: 500%;
+  color: inherit;
+}
+h3{
+  background-color: #59A5D8;
+  padding: 30px;
+  margin-top: 0px;
+  font-size: 150%;
+  color: inherit;
+}
+h2{
+  background-color: #59A5D8;
+  padding: 30px;
+  font-size: 200%;
+  text-align: center;
+  color: inherit;
+}
+
+p {
+  background-color: #59A5D8;
+  padding: 5%;
+  margin: 0px;
+  line-height: 2.0em;
+  text-align: left;
+  color: inherit;
+}
+
+p.contact {
+  text-align: center;
+  padding: 5%;
+}
+p a{
+  background-color: inherit;
+  color: #f5d6ba;
+}
+cite a{
+  background-color: inherit;
+  color:#f5d6ba;
+}
+
+.title{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.title h1{
+  background-color: #59A5D8 ;
+  padding: 4%;
+  font-size: 400%;
+  color: inherit;
+}
+
+h2.subtitle {
+  background-color: #59A5D8;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2%;
+  font-size: 200%;
+  text-align: center;
+  color: #f5d6ba;
+}
+
+.indiv_exp {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+.indiv_exp h3 {
+  background-color: #2E4AA4;
+  color: inherit;
+  margin-top: 0px;
+  font-size: 170%;
+}
+
+.indiv_exp ul {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+  font-size: 105%;
+  line-height: 2em;
+}
+
+.indiv_exp ul li {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h3.company {
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+.indiv_proj {
+  display: flex;
+  flex-direction: row;
+}
+
+.proj_left {
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 2%;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj_left h2 {
+  margin-bottom: 0px;
+}
+
+.proj_left h4 {
+  background-color: #59A5D8;
+  color: inherit;
+  margin-top: 0px;
+}
+
+.proj_left h4 a{
+  color: #f5d6ba;
+  background-color: inherit;
+}
+
+#github {
+  border-color: #f5d6ba;
+  border-style: solid;
+  padding: 1%;
+}
+
+.proj_right {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 10%;
+  flex: 1;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+  border-style: solid;
+  border-color: #59A5D8;
+}
+
+.proj_right li a{
+  color: #f5d6ba;
+  background-color: inherit;
+}
+
+.indiv_hobby {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hobby_left {
+  margin-left: 15%;
+  margin-right: 2%;
+}
+
+.hobby_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 15%;
+}
+
+.indiv_hobby p {
+  padding: 5%;
+}
